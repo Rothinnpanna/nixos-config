@@ -18,11 +18,9 @@
 
     pinta
     krita
-    darktable
+    #darktable
 
     # orca-slicer
-
-    wootility
 
     spotify
   ];

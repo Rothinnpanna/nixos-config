@@ -6,7 +6,7 @@
   home.packages = with pkgs; [
 
     # Elite Dangerous
-    input-remapper
+    # input-remapper
     edmarketconnector
     min-ed-launcher
 

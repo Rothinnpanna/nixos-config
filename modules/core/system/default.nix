@@ -7,7 +7,7 @@
     ./bootloader.nix
     ./pipewire.nix
 
-    ./nvidia.nix
+    # ./nvidia.nix
     # (if (host == "PC") then ./nvidia.nix else "")
   ];
 

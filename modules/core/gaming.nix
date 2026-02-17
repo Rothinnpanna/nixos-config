@@ -12,8 +12,8 @@
   };
 
 
-  # https://help.wooting.io/article/147-configuring-device-access-for-wootility-under-linux-udev-rules
-  services.udev.packages = with pkgs; [
-    wooting-udev-rules
-  ];
+  # # https://help.wooting.io/article/147-configuring-device-access-for-wootility-under-linux-udev-rules
+  # services.udev.packages = with pkgs; [
+  #   wooting-udev-rules
+  # ];
 }

@@ -7,7 +7,7 @@
     ./system
     ./fonts.nix
     ./1password.nix
-    ./gaming.nix
+    # ./gaming.nix
     # ./flatpack.nix
   ];
 
@@ -16,15 +16,15 @@
     winetricks
   ];
 
-  # KDE Plasma
-  services = {
-    displayManager.sddm = {
-      enable = true;
-      wayland.enable = true;
-    };
+  # # KDE Plasma
+  # services = {
+  #   displayManager.sddm = {
+  #     enable = true;
+  #     wayland.enable = true;
+  #   };
 
-    desktopManager.plasma6.enable = true;
-  };
+  #   desktopManager.plasma6.enable = true;
+  # };
 
   programs.bash.shellAliases = {
     "c"  = "clear";

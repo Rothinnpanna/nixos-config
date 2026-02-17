@@ -17,6 +17,8 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    niri-flake.url = "github:sodiboo/niri-flake";
+
     # nixos-hardware.url = "github:NixOS/nixos-hardware/master";
 
     # nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=v0.7.0";
@@ -27,6 +29,7 @@
     nixpkgs,
     nixpkgs-stable,
     home-manager,
+    niri-flake,
     ...
   }: {
     nixosConfigurations = {

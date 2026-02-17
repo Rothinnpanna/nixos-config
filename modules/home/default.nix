@@ -6,9 +6,10 @@
   imports = [
     ./git.nix
     ./social.nix
+    ./niri.nix
     ./zen-browser.nix
     ./zed-editor.nix
-    ./gaming.nix
+    # ./gaming.nix
     # ./flatpack.nix
   ];
 

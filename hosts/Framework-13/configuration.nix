@@ -16,6 +16,7 @@
   services.xserver.xkb = { # Configure keymap in X11
     layout = "dk";
     variant = "nodeadkeys";
+    options = "caps:escape";
   };
   # Configure console keymap
   console.keyMap = "dk-latin1";
