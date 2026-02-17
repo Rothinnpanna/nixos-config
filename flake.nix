@@ -90,6 +90,8 @@
 
           ./hosts/Framework-13/configuration.nix
 
+          niri-flake.nixosModules.niri
+
           home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;
