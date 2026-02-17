@@ -7,6 +7,7 @@
     ./system
     ./fonts.nix
     ./1password.nix
+    ./niri.nix
     # ./gaming.nix
     # ./flatpack.nix
   ];
