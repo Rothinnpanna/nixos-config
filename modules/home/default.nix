@@ -9,6 +9,7 @@
     ./niri.nix
     ./zen-browser.nix
     ./zed-editor.nix
+    ./noctalia.nix
     # ./gaming.nix
     # ./flatpack.nix
   ];
