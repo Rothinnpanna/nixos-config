@@ -14,7 +14,22 @@
   environment.systemPackages = with pkgs; [
     wine
     winetricks
+
+    webcamize
+    gphoto2
+    ffmpeg
   ];
+
+  programs.obs-studio = {
+    enable = true;
+    enableVirtualCamera = true;
+    plugins = with pkgs.obs-studio-plugins; [
+      droidcam-obs
+    ];
+  };
+
+
+
 
   # KDE Plasma
   services = {

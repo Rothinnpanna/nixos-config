@@ -39,7 +39,11 @@
           inherit system;
           inherit inputs;
 
-          pkgs-unstable = import nixpkgs {
+          pkgs = import nixpkgs {
+            inherit system;
+            config.allowUnfree = true;
+          };
+          pkgs-stable = import nixpkgs-stable {
             inherit system;
             config.allowUnfree = true;
           };
